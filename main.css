@@ -1,0 +1,117 @@
+*,
+*::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    list-style: none;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+header * {
+    display: inline;
+}
+
+.container {
+    line-height: 2;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.lorem {
+    text-align:justify
+}
+
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+em {
+    color: blue;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.page-header {
+text-align: center;
+line-height: 2;
+}
+
+.container {
+    margin: 44px 44px 44px 44px;
+}
+
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+
+.navbar {
+    border-radius: 4px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #eee;
+}
+
+video {
+    align-items: center;
+    width: 560px;
+    height: 315px;
+}
+
+footer {
+    background-color: blue;
+}
