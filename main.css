@@ -27,83 +27,58 @@ header * {
     display: inline;
 }
 
-.container {
-    line-height: 2;
+    nav {
+    flex: 1;
+    padding-left: 60px;
+    
+    }
+    
+nav ul li {
+display: inline-block;
+list-style: none;
+margin: 0 20px;
+}
+
+nav ul li a {
+text-decoration: none;
+}
+
+.content {
+margin-left: 110px;
+margin-top: 40px;
+}
+
+.content p {
+font-size: 15px;
+text-align:justify;
+}
+
+.btn {
+display: inline-block;
+background: rgb(61, 61, 136);
+border-radius: 6px;
+padding: 10px 20px;
+position: absolute;
+width: 150px;
+height: 50px;
+text-align: center;
+}
+
+.txt {
+color: #fff;
 }
 
 h1 {
     font-weight: bold;
 }
 
-.lorem {
-    text-align:justify
-}
-
-
-header li {
-    margin: 20px;
-}
-
-header li a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-
 em {
     color: blue;
-}
-
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
 }
 
 .page-header {
 text-align: center;
 line-height: 2;
-}
-
-.container {
-    margin: 44px 44px 44px 44px;
-}
-
-.navbar-nav {
-    float: left;
-    margin: 0;
-}
-
-.navbar-fixed-top {
-    top: 0;
-    border-width: 0 0 1px;
-}
-
-.navbar {
-    border-radius: 4px;
-}
-
-.navbar {
-    position: relative;
-    min-height: 50px;
-    margin-bottom: 20px;
-    border: 1px solid transparent;
-}
-
-.jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
-}
-
-.jumbotron {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
-    color: inherit;
-    background-color: #eee;
 }
 
 video {
