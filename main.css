@@ -27,12 +27,11 @@ header * {
     display: inline;
 }
 
-    nav {
+nav {
     flex: 1;
     padding-left: 60px;
-    
     }
-    
+
 nav ul li {
 display: inline-block;
 list-style: none;
@@ -41,6 +40,7 @@ margin: 0 20px;
 
 nav ul li a {
 text-decoration: none;
+color: black;
 }
 
 .content {
@@ -59,9 +59,8 @@ background: rgb(61, 61, 136);
 border-radius: 6px;
 padding: 10px 20px;
 position: absolute;
-width: 150px;
-height: 50px;
 text-align: center;
+height: 50px;
 }
 
 .txt {
@@ -76,15 +75,26 @@ em {
     color: blue;
 }
 
-.page-header {
+.page {
 text-align: center;
 line-height: 2;
 }
 
-video {
-    align-items: center;
-    width: 560px;
-    height: 315px;
+.videowrapper {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 25px;
+height: 0px;
+}
+
+.videowrapper iframe {
+position: absolute;
+text-align: center;left: 0px;
+top: 0px;
+right: 0px;
+bottom: 0px;
+height: 50%;
+width: 50%;
 }
 
 footer {
