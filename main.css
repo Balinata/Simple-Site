@@ -14,14 +14,13 @@ header ul {
 
 .nav>li {
     position: relative;
-    display: block;
+    display: inline-block;
     text-align: -webkit-match-parent;
     float: left;
 }
 
 .nav>li>a {
     position: relative;
-    display: block;
     padding: 10px 15px;
     color: black;
     line-height: 20px;
@@ -55,22 +54,18 @@ em {
     width: 1170px;
 }
 
-.project>.cards>li {
-    display: inline-block;
-}
-
-.card img {
+.img {
     width: 40px;
     height: 40px;
     float: left;
 }
 
-.cards>li {
+.project>ul>li {
     list-style: none;
     position: absolute;
 }
 
-.cards p {
+.text {
     display: block;
     font-size: 14px;
     padding-left: 25px;
@@ -79,17 +74,7 @@ em {
 
 .project {
     background-color: royalblue;
-    position: absolute;
-    width: 1535px;
-    height: 150px;
-    padding: 0 0;
-}
-
-.cards>li {
-        display: inline-block;
-        width: 80px;
-        height: 80px;
-        vertical-align: top;
+    display: inline-block;
 }
 
 .jumbotron h1 {
@@ -129,11 +114,6 @@ em {
     border-radius: 4px;
     background: #34547A;
     color: #fff;
-}
-
-a {
-    color: #337ab7;
-    text-decoration: none;
 }
 
 .text-content {
