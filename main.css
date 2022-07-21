@@ -60,6 +60,9 @@ em {
 .container p {
     font-size: 16px;
     color: #727272;
+    line-height: 26.25px;
+    font-family: 'Roboto';
+    font-style: normal;
 }
 
 .text-content {
@@ -67,6 +70,7 @@ em {
     max-width: 550px;
     margin: 0 auto;
     width: 100%;
+    line-height: 26.25px;
 }
 
 .text-content p {
@@ -114,7 +118,6 @@ img {
 .jumbotron p {
     margin-bottom: 15px;
     font-size: 16px;
-    font-weight: 200;
     margin: 40px;
 }
 
@@ -150,10 +153,10 @@ footer {
     height: 70px;
 }
 
-.container video {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer>h3 {
