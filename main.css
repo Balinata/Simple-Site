@@ -11,7 +11,7 @@ body {
 
 header {
     list-style-type: disc;
-    padding: 10px;
+    padding: 5px;
     background: #EEEFF1;
 }
 
@@ -49,6 +49,19 @@ em {
     max-width: 100%;
 }
 
+.jumbotron h1 {
+    font-size: 63px;
+    margin-top: 30px;
+    font-size: 48px;
+    margin: 40px;
+}
+
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    margin: 40px;
+}
+
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -66,6 +79,23 @@ em {
     font-style: normal;
 }
 
+.btn {
+    display: inline-block;
+    width: 226px;
+    height: 65px;
+    background: #34547A;
+    color: #fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 18px;
+    text-decoration: none;
+}
+
 .text-content {
     text-align: center;
     max-width: 550px;
@@ -79,85 +109,53 @@ em {
     color: #727272;
 }
 
-img {
-    width: 40px;
-    height: 40px;
-    float: left;
-}
-
-.text {
-    display: block;
-    font-size: 14px;
-    padding-left: 25px;
-    margin: 25px;
-    color: #ffffff;
-}
-
 .project {
     background-color: #34547A;
-    text-align: center;
+    height: 250px;
 }
 
-.cards>li {
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.cards li {
+    display: inline-block;
     list-style: none;
+}
+
+.cards .text {
     display: inline-block;
-    width: 80px;
-    height: 80px;
-    text-align: center;
-    line-height: normal;
-    margin: 22px;
-
 }
 
-.jumbotron h1 {
-    font-size: 63px;
-    margin-top: 30px;
-    font-size: 48px;
-    margin: 40px;
+img {
+    width: 50px;
+    height: 50px;
 }
 
-.jumbotron p {
-    margin-bottom: 15px;
-    font-size: 16px;
-    margin: 40px;
+.text h3 {
+color: #fff;
 }
 
-.btn-default {
-    color: #333;
-    background-color: #fff;
-    border-color: #ccc;
-    text-decoration: none;
-}
-
-.btn {
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
+.text p {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    touch-action: manipulation;
-    cursor: pointer;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    background: #34547A;
-    color: #fff;
-}
-
-footer {
-    background-color: #34547A;
-    height: 70px;
+    font-size: 16px;
+    line-height: 26.25px;
+    color: #FFFFFF;
 }
 
 iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+footer {
+    background-color: #34547A;
+    height: 70px;
 }
 
 footer>h3 {
