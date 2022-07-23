@@ -9,9 +9,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header ul {
+header {
     list-style-type: disc;
-    font-family: ;
+    padding: 10px;
+    background: #EEEFF1;
 }
 
 .nav>li {
