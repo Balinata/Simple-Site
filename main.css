@@ -49,19 +49,6 @@ em {
     max-width: 100%;
 }
 
-.jumbotron h1 {
-    font-size: 63px;
-    margin-top: 30px;
-    font-size: 48px;
-    margin: 40px;
-}
-
-.jumbotron p {
-    margin-bottom: 15px;
-    font-size: 16px;
-    margin: 40px;
-}
-
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -79,21 +66,25 @@ em {
     font-style: normal;
 }
 
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    text-decoration: none;
+}
+
 .btn {
     display: inline-block;
-    width: 226px;
+    padding: 19px;
+    width: 220px;
     height: 65px;
-    background: #34547A;
-    color: #fff;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
     text-align: center;
-    letter-spacing: 0.1em;
-    padding: 18px;
-    text-decoration: none;
+    cursor: pointer;
+    background: #34547A;
+    font-size: 16px;
+    Line height:26.25px;
+    color: #fff;
 }
 
 .text-content {
@@ -114,48 +105,58 @@ em {
     height: 250px;
 }
 
-.cards {
-    display: flex;
-    align-items: center;
-    justify-content: center
+.cards li:first-child {
+margin-left: 0;
 }
 
-.cards li {
-    display: inline-block;
+ul li {
     list-style: none;
-}
-
-.cards .text {
     display: inline-block;
 }
 
 img {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 0;
+}
+
+.text {
+    display: block;
+    font-size: 14px;
+    padding-left: 20px;
+    margin: 30px;
+    color: #ffffff;
 }
 
 .text h3 {
-color: #fff;
+float: left;
 }
 
-.text p {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+.jumbotron h1 {
+    font-size: 63px;
+    margin-top: 30px;
+    font-size: 48px;
+    margin: 40px;
+}
+
+.jumbotron p {
+    margin-bottom: 15px;
     font-size: 16px;
-    line-height: 26.25px;
-    color: #FFFFFF;
+    margin: 40px;
+}
+
+
+
+footer {
+    background-color: #34547A;
+    height: 70px;
 }
 
 iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-footer {
-    background-color: #34547A;
-    height: 70px;
 }
 
 footer>h3 {
