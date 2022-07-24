@@ -12,6 +12,7 @@ body {
 header {
     list-style-type: disc;
     padding: 5px;
+    padding-left: 75px;
     background: #EEEFF1;
 }
 
@@ -64,7 +65,7 @@ em {
 
 .container {
     padding-right: 15px;
-    padding-left: 15px;
+    padding-left: 55px;
     margin-right: auto;
     margin-left: auto;
     max-width: 1150px;
@@ -123,14 +124,18 @@ em {
     padding: 0px 20px;
 }
 
+.cards {
+padding-top: 22px;
+}
+
 ul {
     padding: 0;
     text-align: center;
 }
 
 img {
-    width: 48px;
-    height: 48px;
+    width: 55px;
+    height: 55px;
 }
 
 .text h3 p {
@@ -139,16 +144,17 @@ img {
 }
 
 .text h3 {
+    font-family: 'Roboto';
+    font-style: normal;
     font-size: 21px;
     line-height: 25px;
-    font-weight: 500;
     color: #fff;
     margin-bottom: -0.5em;
 }
 
 .text p {
-    display: block;
-    Line height: 26.25px;
+    font-family: 'Roboto';
+    Line height: 26px;
     font-style: normal;
     font-size: 16px;
     color: #ffffff;
