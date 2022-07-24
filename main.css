@@ -96,8 +96,8 @@ em {
     text-align: center;
     cursor: pointer;
     background: #34547A;
-    font-size: 16px;
-    Line height: 26.25px;
+    font-size: 17px;
+    Line height: 26px;
     color: #fff;
 }
 
@@ -170,6 +170,7 @@ img {
 footer {
     background-color: #34547A;
     height: 70px;
+    padding-left: 75px;
 }
 
 footer>h3 {
