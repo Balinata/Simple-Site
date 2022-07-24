@@ -49,6 +49,19 @@ em {
     max-width: 100%;
 }
 
+.jumbotron h1 {
+    font-size: 63px;
+    margin-top: 30px;
+    font-size: 48px;
+    margin: 40px;
+}
+
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    margin: 40px;
+}
+
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -83,7 +96,7 @@ em {
     cursor: pointer;
     background: #34547A;
     font-size: 16px;
-    Line height:26.25px;
+    Line height: 26.25px;
     color: #fff;
 }
 
@@ -105,58 +118,52 @@ em {
     height: 250px;
 }
 
-.cards li:first-child {
-margin-left: 0;
+.cards li {
+    display: inline-block;
+    padding: 0px 20px;
 }
 
-ul li {
-    list-style: none;
-    display: inline-block;
+ul {
+    padding: 0;
+    text-align: center;
 }
 
 img {
-    width: 40px;
-    height: 40px;
-    float: left;
-    margin-left: 0;
+    width: 48px;
+    height: 48px;
 }
 
-.text {
-    display: block;
-    font-size: 14px;
-    padding-left: 20px;
-    margin: 30px;
-    color: #ffffff;
+.text h3 p {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
 }
 
 .text h3 {
-float: left;
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: -0.5em;
 }
 
-.jumbotron h1 {
-    font-size: 63px;
-    margin-top: 30px;
-    font-size: 48px;
-    margin: 40px;
-}
-
-.jumbotron p {
-    margin-bottom: 15px;
+.text p {
+    display: block;
+    Line height: 26.25px;
+    font-style: normal;
     font-size: 16px;
-    margin: 40px;
+    color: #ffffff;
 }
 
-
+.text {
+    display: inline-block;
+    text-align: left;
+    margin: 0 10px;
+    margin-top: 4em;
+}
 
 footer {
     background-color: #34547A;
     height: 70px;
-}
-
-iframe {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 footer>h3 {
@@ -169,4 +176,10 @@ footer>p {
     color: #fff;
     font-size: 13px;
     margin-left: 40px;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
