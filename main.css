@@ -12,93 +12,116 @@ body {
 header {
     list-style-type: disc;
     padding: 5px;
-    padding-left: 75px;
+    padding-left: 150px;
     background: #EEEFF1;
 }
 
-.nav>li {
-    position: relative;
+.nav:hover {
+    color: #261e33;
+}
+
+.nav {
+padding-top: 70px;
+}
+
+.colortext {
+    color: #34547A;
+}
+
+.nav > li {
     display: inline-block;
     text-align: -webkit-match-parent;
     float: left;
 }
 
-.nav>li>a {
-    position: relative;
+.nav> li > a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    letter-spacing: 0.1em;
     padding: 10px 15px;
-    color: black;
-    line-height: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
     text-decoration: none;
     margin-left: 10px;
 }
 
-em {
-    color: #0000ff;
-}
-
 .jumbotron {
-    padding-top: 48px;
+    padding-top: 70px;
     padding-bottom: 48px;
+    height: 600px;
     background: #EEEFF1;
     color: rgb(0, 0, 0);
     margin-bottom: 30px;
 }
 
-.jumbotron .container {
-    max-width: 100%;
-}
-
-.jumbotron h1 {
-    font-size: 63px;
-    margin-top: 30px;
-    font-size: 48px;
-    margin: 40px;
-}
-
-.jumbotron p {
-    margin-bottom: 15px;
-    font-size: 16px;
-    margin: 40px;
-}
-
 .container {
-    padding-right: 15px;
-    padding-left: 55px;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1150px;
-    width: 100%;
+    max-width: 100%;
+    padding-left: 130px;
+    padding-top: 30px;
+}
+
+.container h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    margin-top: 30px;
+    margin: 40px;
 }
 
 .container p {
+    margin-bottom: 15px;
     font-size: 16px;
-    color: #727272;
-    line-height: 26.25px;
+    margin: 40px;
+    line-height: 26px;
     font-family: 'Roboto';
     font-style: normal;
-}
-
-.btn-default {
-    color: #333;
-    background-color: #fff;
-    border-color: #ccc;
-    text-decoration: none;
+    font-weight: 400;
+    color: #727272;
 }
 
 .btn {
     display: inline-block;
+    text-decoration: none;
     padding: 19px;
     width: 220px;
     height: 65px;
     font-weight: 400;
     text-align: center;
     cursor: pointer;
-    background: #34547A;
     font-size: 17px;
     Line height: 26px;
+    background: #34547A;
     color: #fff;
+}
+
+.btn:hover {
+    background: #92a8f8;
+    color: #ffffff;
+}
+
+.containerp {
+    padding-right: 15px;
+    padding-left: 55px;
+    padding: 110px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1150px;
+    width: 100%;
+}
+
+.containerp p {
+    font-size: 16px;
+    padding-top: 20px;
+    color: #727272;
+    line-height: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
 }
 
 .text-content {
@@ -106,12 +129,12 @@ em {
     max-width: 550px;
     margin: 0 auto;
     width: 100%;
-    line-height: 26.25px;
 }
 
 .text-content p {
     font-size: 16px;
     color: #727272;
+    line-height: 26px;
 }
 
 .project {
@@ -119,13 +142,14 @@ em {
     height: 250px;
 }
 
+.cards {
+    padding-top: 22px;
+    width: 100%;
+}
+
 .cards li {
     display: inline-block;
     padding: 0px 20px;
-}
-
-.cards {
-    padding-top: 22px;
 }
 
 ul {
@@ -167,26 +191,47 @@ img {
     margin-top: 4em;
 }
 
-footer {
-    background-color: #34547A;
-    height: 70px;
-    padding-left: 75px;
+.containert {
+    padding-right: 15px;
+    padding-left: 55px;
+    padding: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1150px;
+    width: 100%;
 }
 
-footer>h3 {
-    color: #fff;
-    font-size: 21px;
-    margin-left: 40px;
-}
-
-footer>p {
-    color: #fff;
-    font-size: 13px;
-    margin-left: 40px;
+.text-contentt {
+    text-align: center;
+    max-width: 550px;
+    margin: 0 auto;
+    width: 100%;
+    line-height: 26px;
 }
 
 iframe {
     display: block;
+    padding-top: 50px;
     margin-left: auto;
     margin-right: auto;
+}
+
+footer {
+    background-color: #34547A;
+    padding-left: 130px;
+    height: 70px;
+    padding-left: 75px;
+}
+
+footer > h3 {
+    color: #fff;
+
+    font-size: 21px;
+    margin-left: 40px;
+}
+
+footer > p {
+    color: #fff;
+    font-size: 13px;
+    margin-left: 40px;
 }
