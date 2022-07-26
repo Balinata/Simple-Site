@@ -152,6 +152,10 @@ padding-top: 70px;
     padding: 0px 20px;
 }
 
+.cards img:hover {
+background-color: rgb(175, 214, 251);
+}
+
 ul {
     padding: 0;
     text-align: center;
